@@ -16,6 +16,7 @@
         'footer footer';
 
         grid-template-rows: 15% 1fr 1fr 15%;
+        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
 
     }
 }
@@ -35,6 +36,8 @@
         "header header nav"
         "main aside aside"
         "footer footer footer";
+        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
+        
     }
     
 
@@ -53,19 +56,18 @@
 
 .main{
     grid-area: main;
-    background-color: #293f1f;
+    
     padding: 5px;
 }
 
 .aside{
     grid-area: aside;
-    background-color: #293f1f;
+    
     padding: 5px;
 }
 
 .footer{
     grid-area: footer;
-    background-color: blue;
     padding: 5px;
     background-color: #3C3A39;
 }
