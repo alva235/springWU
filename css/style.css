@@ -1,7 +1,7 @@
 
 /* iphone */
 @media screen and (min-width: 0px) and (max-width: 768px) {
-    .wrapper{
+    .wrapper1{
         display: grid;
         
         margin: 0px;
@@ -23,7 +23,7 @@
 
 /* desktop */
 @media screen and (min-width:769px){
-    .wrapper{
+    .wrapper1{
         display: grid;
         margin: 0px;
         width: 100vw;
@@ -43,11 +43,8 @@
 
 }
 
-.nav{
-    grid-area: nav;
-    background: #252524;
-    
-}
+
+/* gemensamt alla sidor */
 
 .header{
     grid-area: header;
@@ -57,20 +54,6 @@
     align-items: center;
     position: relative;
 
-}
-
-.main{
-    grid-area: main;
-    background: rgba(0,0,0,0.75);
-    padding: 5px;
-    
-}
-
-.aside{
-    grid-area: aside;
-    background: rgba(0,0,0,0.75);
-    
-    padding: 5px;
 }
 
 .footer{
@@ -136,4 +119,41 @@
     color: white;
     font-size: 100px;
     
+}
+
+
+/* sida 1, startsida */
+
+.main{
+    grid-area: main;
+    background: rgba(0,0,0,0.75);
+    padding: 70px;
+    
+}
+
+.aside{
+    grid-area: aside;
+    background: rgba(0,0,0,0.75);
+    
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.innre_box_main{
+ width: 1000px;
+ height: 550px;
+ background: rgba(0,0,0,0.75);
+ border-radius: 30px;
+ color: white;
+ padding: 20px;
+}
+
+.innre_box_aside{
+    width: 400px;
+    height: 550px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+
 }
