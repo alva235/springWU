@@ -5,7 +5,7 @@
         display: grid;
         
         margin: 0px;
-        grid-template-rows: 15% 1fr 1fr 10%;
+        grid-template-rows: 15% 1fr 1fr 8%;
         grid-template-columns: 1fr 10%;
         width: 100vw;
         height: 100vh;
@@ -28,7 +28,7 @@
         margin: 0px;
         width: 100vw;
         height: 100vh;
-        grid-template-rows: 15% 1fr 10%;
+        grid-template-rows: 15% 1fr 8%;
         grid-template-columns: 70% 20% 10%;
         
         
@@ -45,23 +45,26 @@
 
 .nav{
     grid-area: nav;
-    background: #3C3A39;
+    background: #252524;
+    
 }
 
 .header{
     grid-area: header;
-    background-color: #3C3A39;
+    background: #252524;
     padding: 5px;
 }
 
 .main{
     grid-area: main;
-    
+    background: rgba(0,0,0,0.75);
     padding: 5px;
+    
 }
 
 .aside{
     grid-area: aside;
+    background: rgba(0,0,0,0.75);
     
     padding: 5px;
 }
@@ -69,14 +72,14 @@
 .footer{
     grid-area: footer;
     padding: 5px;
-    background-color: #3C3A39;
+    background: #252524;
 }
 
 
 .menu{
     height: 100vh;
     width: 80vw;
-    background: hotpink;
+    background: #252524;
     position: fixed;
     top: 0;
     left: -90vw;
@@ -111,4 +114,10 @@
 
 .fade-layer.visible{
     display: block;
+}
+
+.menu_icon{
+   
+    height: 130px;
+    width: 130px;
 }
