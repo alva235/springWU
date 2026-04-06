@@ -19,6 +19,128 @@
         background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
 
     }
+    /* gemensamt alla sidor */
+
+.header{
+    grid-area: header;
+    display: flex;
+    background: #252524;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.footer{
+    grid-area: footer;
+    padding: 5px;
+    background: #252524;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+
+.menu{
+    height: 100vh;
+    width: 80vw;
+    background: #252524;
+    position: fixed;
+    top: 0;
+    left: -90vw;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 10;
+}
+
+.menu-button{
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.menu-button i.material-icons{
+    font-size: 2.5rem;
+}
+
+.show{
+    left: 0;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
+.menu_icon{
+   
+    height: 80px;
+    width: 80px;
+}
+
+.h1{
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    
+}
+
+
+/* sida 1, startsida */
+
+.main{
+    grid-area: main;
+    background: rgba(0,0,0,0.75);
+    padding: 30px;
+    
+}
+
+.aside{
+    grid-area: aside;
+    background: rgba(0,0,0,0.75);
+    
+    padding-top: 5px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.innre_box_main{
+ width: 650px;
+ height: 300px;
+ background: rgba(0,0,0,0.75);
+ border-radius: 30px;
+ color: white;
+ padding: 20px;
+ font-size: 15px;
+ display: flex;
+ flex-direction: column;
+}
+
+.innre_box_aside{
+    width: 300px;
+    height: 200px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    
+}
 }
 
 /* desktop */
@@ -40,10 +162,6 @@
         
     }
     
-
-}
-
-
 /* gemensamt alla sidor */
 
 .header{
@@ -153,7 +271,6 @@
  font-size: 25px;
  display: flex;
  flex-direction: column;
- 
 }
 
 .innre_box_aside{
@@ -164,3 +281,5 @@
     color: white;
     padding: 20px;
 }
+}
+
