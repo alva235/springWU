@@ -60,6 +60,10 @@
     grid-area: footer;
     padding: 5px;
     background: #252524;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
 }
 
 
@@ -146,6 +150,10 @@
  border-radius: 30px;
  color: white;
  padding: 20px;
+ font-size: 25px;
+ display: flex;
+ flex-direction: column;
+ 
 }
 
 .innre_box_aside{
@@ -155,5 +163,4 @@
     border-radius: 30px;
     color: white;
     padding: 20px;
-
 }
