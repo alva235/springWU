@@ -53,8 +53,7 @@
     grid-area: header;
     display: flex;
     background: #252524;
-    padding-left: 630px;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     
 
