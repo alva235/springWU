@@ -138,29 +138,201 @@
     border-radius: 30px;
     color: white;
     padding: 20px;
+}
+
+    /* sida 2, huvudrätter */
+
+    .wrapper2{
+        display: grid;
+        
+        margin: 0px;
+        grid-template-rows: 15% 1fr 1fr 1fr 8%;
+        grid-template-columns: 50% 50%;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas: 
+        'header header'
+        'div1 div2'
+        'div3 div4'
+        'div5 div6'
+        'footer footer';
+
+        
+        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
+
+    }
+
+    .div_main1{
+        grid-area: div1;
+
+    }
+
+    .div2_main{
+        grid-area: div2;
+
+    }
+
+    .div_main3{
+        grid-area: div3;
+
+    }
     
-}
-}
+    .div_main4{
+        grid-area: div4;
+
+    }
+
+    .div_main5{
+        grid-area: div5;
+
+    }
+
+    .div_main6{
+        grid-area: div6;
+
+    }
+
+    /* sida 3, dessert */
+
+    .wrapper3{
+        display: grid;
+        
+        margin: 0px;
+        grid-template-rows: 15% 1fr 1fr 1fr 8%;
+        grid-template-columns: 100%;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas: 
+        'header'
+        'div7'
+        'div8'
+        'div9'
+        'footer';
+
+        
+        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
+
+    }
+
+    .div_desert1{
+        grid-area: div7;
+    }
+
+    .div_desert2{
+        grid-area: div8;
+    }
+
+    .div_desert3{
+        grid-area: div9;
+    }
+
+
+    /* sida 4, drinkar */
+
+    .wrapper4{
+        display: grid;
+        
+        margin: 0px;
+        grid-template-rows: 15% 1fr 1fr 8%;
+        grid-template-columns: 50% 50%;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas: 
+        'header header'
+        'div10 div11'
+        'div12 div13'
+        'footer footer';
+
+        grid-template-rows: 15% 1fr 1fr 15%;
+        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
+
+    }
+
+    .div_drinks1{
+        grid-area: div10;
+    }
+
+    .div_drinks2{
+        grid-area: div11;
+    }
+
+    .div_drinks3{
+        grid-area: div12;
+    }
+
+    .div_drinks4{
+        grid-area: div13;
+    }
+
+
+
 
 /* desktop */
 @media screen and (min-width:769px){
-    .wrapper1{
-        display: grid;
-        margin: 0px;
-        width: 100vw;
-        height: 100vh;
-        grid-template-rows: 15% 1fr 8%;
-        grid-template-columns: 70% 20% 10%;
-        
-        
-        grid-template-areas: 
-        "header header header"
-        "main aside aside"
-        "footer footer footer";
-        background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
-        
-    }
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/springWU/css/style.css">
+  <title>Zelda cookbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+  <nav class="menu"></nav>
+
+  <div class="fade-layer"></div>
+
+  <div class="wrapper2">
+
+    <header class="header">
+    <h1 class="h1">Hyrule Kitchen</h1>
+    <div class="menu-button">
+      <i class="material-icons">
+        <img class="menu_icon" src="img/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="menyknapp">
+      </i>
+    </div>
+    </header>
     
+    <div class="div_main1">
+        div 1
+    </div>
+
+    <div class="div_main2">
+        div 2
+    </div>
+
+    <div class="div_main3">
+        div 3
+    </div>
+
+    <div class="div_main4">
+        div 4
+    </div>
+
+    <div class="div_main5">
+        div 5
+    </div>
+
+    <div class="div_main6">
+        div 6
+    </div>
+    
+    <footer class="footer">
+    <p> kontakta oss</p>
+    <p>tjänster</p>
+    <p>instagram</p>
+    </footer>
+
+</div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
 /* gemensamt alla sidor */
 
 .header{
