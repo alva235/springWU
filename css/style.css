@@ -235,14 +235,25 @@
 
     .div_desert1{
         grid-area: div7;
+        display: flex;
+        justify-self: center;
     }
 
     .div_desert2{
         grid-area: div8;
+        display: flex;
+        justify-self: center;
     }
 
     .div_desert3{
         grid-area: div9;
+        display: flex;
+        justify-self: center;
+    }
+
+    .img3{
+        width: 340px;
+        height: 180px;
     }
 
 
@@ -528,17 +539,17 @@
 
 .div_desert1{
     grid-area: div7;
-    padding-left: 100px;
+    justify-self: center;
 }
 
 .div_desert2{
     grid-area: div8;
-    padding-left: 100px;
+    justify-self: center;
 }
 
 .div_desert3{
     grid-area: div9;
-    padding-left: 100px;
+    justify-self: center;
 }
 
 .img3{
