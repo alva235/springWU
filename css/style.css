@@ -259,12 +259,14 @@
         grid-area: div7;
         display: flex;
         justify-self: center;
+        
     }
 
     .div_desert2{
         grid-area: div8;
         display: flex;
         justify-self: center;
+        
     }
 
     .div_desert3{
@@ -274,8 +276,8 @@
     }
 
     .img3{
-        width: 340px;
-        height: 180px;
+        width: 430px;
+        height: 225px;
     }
 
 
@@ -304,14 +306,14 @@
         grid-area: div10;
         display: flex;
         justify-self: center;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .div_drinks2{
         grid-area: div11;
         display: flex;
         justify-self: center;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .div_drinks3{
@@ -327,8 +329,8 @@
     }
 
     .img2{
-        width: 170px;
-        height: 232px;
+        width: 245px;
+        height: 300px;
     }
 
 }
