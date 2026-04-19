@@ -1,6 +1,6 @@
 
 /* iphone */
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px){
     .wrapper1{
         display: grid;
         
@@ -15,7 +15,7 @@
         'aside aside'
         'footer footer';
 
-        grid-template-rows: 15% 1fr 1fr 15%;
+        
         background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
 
     }
@@ -164,6 +164,12 @@
 
     .div_main1{
         grid-area: div1;
+        display: flex;
+        align-content: center;
+        padding: 10px;
+        
+    
+        
 
     }
 
@@ -243,7 +249,7 @@
         'div12 div13'
         'footer footer';
 
-        grid-template-rows: 15% 1fr 1fr 15%;
+        
         background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
 
     }
@@ -426,34 +432,50 @@
 }
 .div_main1{
     grid-area: div1;
+    display: flex;
+    justify-self: center;
 
 }
 
-.div2_main{
+.div_main2{
     grid-area: div2;
+    display: flex;
+    justify-self: center;
 
 }
 
 .div_main3{
     grid-area: div3;
+    display: flex;
+    justify-self: center;
 
 }
 
 .div_main4{
     grid-area: div4;
+    display: flex;
+    justify-self: center;
 
 }
 
 .div_main5{
     grid-area: div5;
+    display: flex;
+    justify-self: center;
 
 }
 
 .div_main6{
     grid-area: div6;
+    display: flex;
+    justify-self: center;
 
 }
 
+.img{
+    width: 260px;
+    height: 350px;
+}
 /*sida 3, deserer */
 
 .wrapper3{
@@ -505,7 +527,7 @@
     'div12 div13'
     'footer footer';
 
-    grid-template-rows: 15% 1fr 1fr 15%;
+    
     background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
 
 }
