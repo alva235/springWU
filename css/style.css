@@ -52,6 +52,10 @@
     transition: left 0.3s;
     box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
 }
 
 .menu-button{
@@ -98,6 +102,12 @@
     color: white;
     font-size: 50px;
     
+}
+
+.links{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
 }
 
 
@@ -375,6 +385,11 @@
     transition: left 0.3s;
     box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    
 }
 
 .menu-button{
@@ -421,6 +436,12 @@
     color: white;
     font-size: 100px;
     
+}
+
+.links{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
 }
 
 /* sida 1, startsida */
