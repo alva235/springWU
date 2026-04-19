@@ -5,14 +5,13 @@
         display: grid;
         
         margin: 0px;
-        grid-template-rows: 15% 1fr 1fr 8%;
+        grid-template-rows: 15% 1fr 8%;
         grid-template-columns: 100%;
         width: 100vw;
         height: 100vh;
         grid-template-areas: 
         'header'
         'main'
-        'aside'
         'footer';
 
         
@@ -120,16 +119,7 @@
     
 }
 
-.aside{
-    grid-area: aside;
-    background: rgba(0,0,0,0.75);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
 
-    
-}
 
 .innre_box_main{
  width: 425px;
@@ -344,13 +334,13 @@
         width: 100vw;
         height: 100vh;
         grid-template-rows: 15% 1fr 8%;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 100%;
         
         
         grid-template-areas: 
-        "header header"
-        "main aside"
-        "footer footer";
+        "header"
+        "main"
+        "footer";
         background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
     }
 
@@ -452,16 +442,9 @@
     grid-area: main;
     background: rgba(0,0,0,0.75);
     padding: 70px;
-    
+   
 }
 
-.aside{
-    grid-area: aside;
-    background: rgba(0,0,0,0.75);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
 .innre_box_main{
  width: 1000px;
@@ -473,6 +456,7 @@
  font-size: 25px;
  display: flex;
  flex-direction: column;
+ justify-self: center;
 }
 
 
