@@ -433,7 +433,7 @@
 .div_main1{
     grid-area: div1;
     display: flex;
-    justify-self: center;
+    justify-self: right;
 
 }
 
@@ -447,21 +447,21 @@
 .div_main3{
     grid-area: div3;
     display: flex;
-    justify-self: center;
+    justify-self: left;
 
 }
 
 .div_main4{
     grid-area: div4;
     display: flex;
-    justify-self: center;
+    justify-self: left;
 
 }
 
 .div_main5{
     grid-area: div5;
     display: flex;
-    justify-self: center;
+    justify-self: right;
 
 }
 
