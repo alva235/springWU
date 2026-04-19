@@ -165,37 +165,50 @@
     .div_main1{
         grid-area: div1;
         display: flex;
-        align-content: center;
-        padding: 10px;
-        
-    
-        
+        justify-self: center;
 
+        
     }
 
-    .div2_main{
+    .div_main2{
         grid-area: div2;
+        display: flex;
+        justify-self: center;
+
 
     }
 
     .div_main3{
         grid-area: div3;
+        display: flex;
+        justify-self: center;
 
     }
     
     .div_main4{
         grid-area: div4;
+        display: flex;
+        justify-self: center;
 
     }
 
     .div_main5{
         grid-area: div5;
+        display: flex;
+        justify-self: center;
 
     }
 
     .div_main6{
         grid-area: div6;
+        display: flex;
+        justify-self: center;
 
+    }
+
+    .img{
+        width: 170px;
+        height: 232px;
     }
 
     /* sida 3, dessert */
@@ -256,18 +269,33 @@
 
     .div_drinks1{
         grid-area: div10;
+        display: flex;
+        justify-self: center;
+        padding-top: 10px;
     }
 
     .div_drinks2{
         grid-area: div11;
+        display: flex;
+        justify-self: center;
+        padding-top: 10px;
     }
 
     .div_drinks3{
         grid-area: div12;
+        display: flex;
+        justify-self: center;
     }
 
     .div_drinks4{
         grid-area: div13;
+        display: flex;
+        justify-self: center;
+    }
+
+    .img2{
+        width: 170px;
+        height: 232px;
     }
 
 }
@@ -500,14 +528,22 @@
 
 .div_desert1{
     grid-area: div7;
+    padding-left: 100px;
 }
 
 .div_desert2{
     grid-area: div8;
+    padding-left: 100px;
 }
 
 .div_desert3{
     grid-area: div9;
+    padding-left: 100px;
+}
+
+.img3{
+   width: 600px; 
+   height: 250px;
 }
 
 
@@ -517,15 +553,14 @@
     display: grid;
     
     margin: 0px;
-    grid-template-rows: 15% 1fr 1fr 8%;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 1fr 8%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100vw;
     height: 100vh;
     grid-template-areas: 
-    'header header'
-    'div10 div11'
-    'div12 div13'
-    'footer footer';
+    'header header header header'
+    'div10 div11 div12 div13'
+    'footer footer footer footer';
 
     
     background-image: url(https://images8.alphacoders.com/923/thumb-1920-923533.jpg);
@@ -534,18 +569,36 @@
 
 .div_drinks1{
     grid-area: div10;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
 }
 
 .div_drinks2{
     grid-area: div11;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    
 }
 
 .div_drinks3{
     grid-area: div12;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 .div_drinks4{
     grid-area: div13;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.img2{
+    width: 320px;
+    height: 450px;
 }
 
 
